@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background-color: #8fe3f1;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1 {
+    color: #656d77;
+  }
+  .container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  h1 {
+    font-size: 4em;
+    color: rgb(3, 132, 46);
+  }
+  .score-container {
+    color: #d418d1;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 600;
+  }
+  #score {
+    font-weight: 600;
+  }
+  .grid {
+    width: 25em;
+    height: 25em;
+    background-color: #94fbcd;
+    border: 5px solid #f8269d;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5em;
+  }
+  .box {
+    width: 97.5px;
+    height: 97.5px;
+    border: 5px solid #f49494;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cover-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4559f;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #start-button {
+    background-color: #0d74d4;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    font-weight: 750;
+    color: #ffffff;
+  }
+
+  footer{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    font-weight: 700;
+    margin-top: 105%;
+    margin-left: 4px ;
+  }
+  .hide {
+    display:none;
+  }
+  .box-2 {
+    background-color: #c2c1f4;
+    color: #727371;
+  }
+  .box-4 {
+    background-color: #f7bff9;
+    color: #727371;
+  }
+  
+  .box-8 {
+    background-color: #f45479;
+    color: white;
+  }
+  
+  .box-16 {
+    background-color: #d5cf64;
+    color: white;
+  }
+  
+  .box-32 {
+    background-color: #89dd85;
+    color: white;
+  }
+  
+  .box-64 {
+    background-color: #828df3;
+    color: white;
+  }
+  
+  .box-128 {
+    background-color: #ecd382;
+    color: white;
+  }
+  
+  .box-256 {
+    background-color: #49bc73;
+    color: white;
+  }
+  
+  .box-512 {
+    background-color: #aa663e;
+    color: white;
+  }
+  
+  .box-1024 {
+    background-color: #9459a0;
+    color: white;
+  }
+  
+  .box-2048 {
+    background-color: #9be650;
+    color: white;
+  }
