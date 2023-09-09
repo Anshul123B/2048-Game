@@ -1,6 +1,6 @@
  <h1>2048 Game</h1>
     
-    <p>Welcome to the 2048 game! This is a simple web-based implementation of the popular 2048 puzzle game.</p>
+   <p>Welcome to the 2048 game! This is a simple web-based implementation of the popular 2048 puzzle game.</p>
 
   <h2>How to Play</h2>
     <p>
@@ -30,11 +30,6 @@
    <h2>Customization</h2>
     <p>
         You can customize the game by modifying the CSS styles and JavaScript code in the provided files.
-    </p>
-
-   <h2>Credits</h2>
-    <p>
-        This game is based on the original 2048 game created by Gabriele Cirulli. You can find the original game <a href="https://gabrielecirulli.github.io/2048/" target="_blank">here</a>.
     </p>
 
    <h2>License</h2>
