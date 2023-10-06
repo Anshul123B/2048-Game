@@ -1,44 +1,51 @@
- <h1>2048 Game</h1>
-    
-   <p>Welcome to the 2048 game! This is a simple web-based implementation of the popular 2048 puzzle game.</p>
+# 2048 Game
 
-  <h2>How to Play</h2>
-    <p>
-        To play the game, simply use your arrow keys (Up, Down, Left, Right) to move the tiles on the grid.
-        Your goal is to combine tiles with the same number to reach the tile with the number 2048.
-    </p>
+![2048 Game](screenshot.png)
 
-   <h2>Getting Started</h2>
-    <p>
-       To get started, open the "index.html" file in your web browser. The game will load, and you can start playing immediately.
-    </p>
+## Description
 
-  <h2>Game Controls</h2>
-    <ul>
-        <li>Use the <strong>Up Arrow</strong> key to move tiles up.</li>
-        <li>Use the <strong>Down Arrow</strong> key to move tiles down.</li>
-        <li>Use the <strong>Left Arrow</strong> key to move tiles left.</li>
-        <li>Use the <strong>Right Arrow</strong> key to move tiles right.</li>
-    </ul>
+This is a simple implementation of the classic 2048 game using HTML, CSS, and JavaScript. The objective of the game is to reach the tile with the number 2048 by merging tiles with the same number. The game is won when you reach the 2048 tile, and it's over when the grid is full and you can't make any more moves.
 
-   <h2>Game Rules</h2>
-    <p>
-        Tiles with the same number will merge into a new tile with double the value when they collide.
-        The game is won when you reach the 2048 tile. The game is lost if the grid is full and no more moves can be made.
-    </p>
+## How to Play
 
-   <h2>Customization</h2>
-    <p>
-        You can customize the game by modifying the CSS styles and JavaScript code in the provided files.
-    </p>
+- Use the arrow keys (Up, Down, Left, Right) to move the tiles on the grid.
+- Tiles with the same number will merge into one when they touch.
+- New tiles with the number 2 will appear on the grid after each move.
+- The game is won when a tile with the number 2048 is created.
 
-   <h2>License</h2>
-    <p>
-        This project is open-source and available under the MIT License. 
-    </p>
+## Installation
 
-   <h2>Feedback</h2>
-    <p>
-        If you have any feedback or suggestions for improvements, please feel free to create an issue or contribute to the project on GitHub.
-    </p>
+No installation is required to play this game. Simply open the `index.html` file in your web browser to start playing.
 
+```bash
+open index.html
+```
+
+## Features
+
+- Responsive design that adapts to different screen sizes.
+- Keeps track of your current score.
+- Ability to restart the game at any time.
+- Simple and intuitive controls using arrow keys.
+- Winning and losing animations to enhance the user experience.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to open an issue or submit a pull request. We welcome any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+## Acknowledgments
+
+- This game is based on the original 2048 game created by Gabriele Cirulli.
+- Thanks to the developers of HTML, CSS, and JavaScript for making this project possible.
+- Special thanks to the open-source community for their contributions and feedback.
+
+Have fun playing 2048!
