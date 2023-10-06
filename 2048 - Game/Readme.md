@@ -1,5 +1,7 @@
 # 2048 Game
 
+
+
 ## Description
 
 This is a simple implementation of the classic 2048 game using HTML, CSS, and JavaScript. The objective of the game is to reach the tile with the number 2048 by merging tiles with the same number. The game is won when you reach the 2048 tile, and it's over when the grid is full and you can't make any more moves.
