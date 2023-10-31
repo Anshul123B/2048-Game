@@ -46,6 +46,6 @@ This project is licensed under the MIT License.
 
 - This game is based on the original 2048 game created by Gabriele Cirulli.
 - Thanks to the developers of HTML, CSS, and JavaScript for making this project possible.
-- Special thanks to the open-source community for their contributions and feedback.
+- Special thanks to the open-source community for their contributions.
 
 Have fun playing 2048!
